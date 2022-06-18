@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+
+}
+html{
+
+    background-color: black;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+
+.mademedoit, .hesanidiot, .dumb{
+
+    text-align: center;
+    font-size: 150px;
+    margin-top: 50%;
+    
+    color: white;
+}
