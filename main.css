@@ -1,7 +1,7 @@
 .container{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: black;
 
 }
@@ -9,18 +9,23 @@ html{
 
     background-color: black;
 }
+
 .item{
-    width: 100px;
-    height: 100px;
-    margin-right: 50px;
-    margin-top: 200px;
+
+    color: white;
+    font-size: 60px;
+    position:static;
+    padding-top: 15%;
+    
+
 }
 
-.mademedoit, .hesanidiot, .dumb{
+.item:hover{
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
 
-    text-align: center;
-    font-size: 150px;
-    margin-top: 50%;
-    
-    color: white;
+.item:not(:hover){
+    transform: scale(1);
+    transition-duration: 0.3s;
 }
